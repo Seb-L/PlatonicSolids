@@ -7,7 +7,7 @@
       <h1>Sébastien Lombard</h1>
       <p>
         Lead Front-End Developer<br>
-        at Numberly Group
+        at Numberly / 1000mercis Group
       </p>
       <br>
 
@@ -25,6 +25,20 @@
         <a href="https://github.com/Seb-L" target="_blank"><Icon type="social-github"></Icon></a>
         <a href="https://codepen.io/SebL/" target="_blank"><Icon type="social-codepen"></Icon></a>
       </div>
+      <br>
+
+      <div class="">
+        <small>TECHNICAL SKILLS:</small> <br>
+        <Tag>Javascript</Tag>
+        <Tag>AngularJS</Tag>
+        <Tag>VueJS</Tag>
+        <Tag>HTML5/CSS3</Tag>
+        <Tag>SASS</Tag><br>
+        <Tag>Photoshop / Illustrator</Tag>
+        <Tag>NodeJS</Tag>
+        <Tag>ExpressJS</Tag>
+      </div>
+      <br>
     </Col>
   </Row>
 </template>
@@ -41,7 +55,7 @@ export default {
 
 <style scoped>
 .intro{
-  height: 100vh;
+  min-height: 100vh;
 }
 .user-info{
   text-align: center;
@@ -53,8 +67,8 @@ export default {
 }
 .avatar{
   border-radius: 5000px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   margin: 0 auto;
 }
