@@ -11,35 +11,27 @@
       </p>
       <br>
 
-      <div>
-        After 2 years and half as a Sound Technician,<br>
-        5 years and half in Graphic Design, Flash and HTML Integration,<br>
-        I dragged myself into Front-End Development in 2014.
-      </div>
-      <br>
-
       <small>FIND ME ON:</small>
       <div class="social">
-        <a href="https://www.linkedin.com/in/sebastienlombard" target="_blank"><Icon type="social-linkedin"></Icon></a>
-        <a href="https://twitter.com/Seb_L_" target="_blank"><Icon type="social-twitter"></Icon></a>
-        <a href="https://github.com/Seb-L" target="_blank"><Icon type="social-github"></Icon></a>
-        <a href="https://codepen.io/SebL/" target="_blank"><Icon type="social-codepen"></Icon></a>
+        <Tooltip content="LinkedIn" placement="bottom">
+          <a href="https://www.linkedin.com/in/sebastienlombard" target="_blank"><Icon type="social-linkedin"></Icon></a>
+        </Tooltip>
+        <Tooltip content="Twitter" placement="bottom">
+          <a href="https://twitter.com/Seb_L_" target="_blank"><Icon type="social-twitter"></Icon></a>
+        </Tooltip>
+        <Tooltip content="Github" placement="bottom">
+          <a href="https://github.com/Seb-L" target="_blank"><Icon type="social-github"></Icon></a>
+        </Tooltip>
+        <Tooltip content="Codepen" placement="bottom">
+          <a href="https://codepen.io/SebL/" target="_blank"><Icon type="social-codepen"></Icon></a>
+        </Tooltip>
       </div>
-      <br>
-
-      <div class="">
-        <small>TECHNICAL SKILLS:</small> <br>
-        <Tag>Javascript</Tag>
-        <Tag>AngularJS</Tag>
-        <Tag>VueJS</Tag>
-        <Tag>HTML5/CSS3</Tag>
-        <Tag>SASS</Tag><br>
-        <Tag>Photoshop / Illustrator</Tag>
-        <Tag>NodeJS</Tag>
-        <Tag>ExpressJS</Tag>
-      </div>
-      <br>
     </Col>
+
+    <a href="#more-details" class="more-details" v-smooth-scroll>
+      <small>More Details</small><br>
+      <Icon type="chevron-down"></Icon>
+    </a>
   </Row>
 </template>
 
@@ -55,6 +47,7 @@ export default {
 
 <style scoped>
 .intro{
+  background-color: #f7f7f7;
   min-height: 100vh;
 }
 .user-info{
@@ -63,7 +56,7 @@ export default {
 .user-info p{
   font-style: italic;
   line-height: 1;
-  color: #acacac;
+  color: #95a5a6;
 }
 .avatar{
   border-radius: 5000px;
@@ -91,5 +84,13 @@ export default {
   font-size: 2rem;
   display: inline-block;
   margin: 0 0.5rem;
+}
+.more-details{
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  line-height: 1.2;
 }
 </style>
