@@ -4,8 +4,9 @@ cache: yarn
 before_script: yarn
 script: yarn run build
 deploy:
-  provider: surge
+  provider: pages
+  github_token: $GITHUB_TOKEN
+  local_dir: dist
   skip_cleanup: true
-  project: ./dist
   on:
     branch: master
