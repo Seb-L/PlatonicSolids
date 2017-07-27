@@ -15,7 +15,7 @@ html, body{
   height: 100%;
 }
 body{
-  font-size: 18px;
+  font-size: 18px !important;
 }
 .section{
   min-height: 100vh;
