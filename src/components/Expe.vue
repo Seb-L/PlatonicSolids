@@ -46,7 +46,7 @@
             - Veille et évolution des technos front<br>
             - Participation à l'évolution de la stack complete avec le lead dev back<br>
             - Participation aux brainstorms des projets<br>
-            - Préparations de Hacknight et formations interne
+            - Préparations de Hacknight et formations interne<br>
             - Developpement de Chatbots avec DialogFlow
           </p>
         </Timeline-item>
