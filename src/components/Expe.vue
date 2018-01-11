@@ -125,7 +125,9 @@ export default {
         'NodeJS',
         'ExpressJS',
         'Gitlab CI',
-        'Travis CI'
+        'Travis CI',
+        'Firebase',
+        'Firebase Functions'
       ],
       mediumPosts: []
     }
