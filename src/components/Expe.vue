@@ -47,6 +47,7 @@
             - Participation à l'évolution de la stack complete avec le lead dev back<br>
             - Participation aux brainstorms des projets<br>
             - Préparations de Hacknight et formations interne
+            - Developpement de Chatbots avec DialogFlow
           </p>
         </Timeline-item>
 
