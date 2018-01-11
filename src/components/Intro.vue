@@ -47,7 +47,11 @@ export default {
 
 <style scoped>
 .intro{
-  background-color: #f7f7f7;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-image: linear-gradient(-45deg, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(-45deg, #fdfbfb 0%, #ebedee 100%);
+
+  /* color: white; */
   min-height: 100vh;
 }
 .user-info{
