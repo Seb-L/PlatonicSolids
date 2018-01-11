@@ -1,6 +1,6 @@
 <template>
   <Row id="more-details" class="expe">
-    <Col :sm="{ span: 12 }" class="expe-description">
+    <Col :md="{ span: 12 }" class="expe-description">
 
       <!-- DESCRIPTION -->
       <div>
@@ -31,7 +31,7 @@
         </Timeline-item>
       </Timeline>
     </Col>
-    <Col :sm="{ span: 12 }">
+    <Col :md="{ span: 12 }">
       <!-- EXPERIENCE -->
       <Timeline>
         <Timeline-item>
@@ -145,9 +145,16 @@ export default {
 </script>
 
 <style scoped>
+.expe{
+  padding: 2rem;
+}
+
 @media (min-width: 768px) {
   .expe-description{
     padding-right: 6rem;
+  }
+  .expe{
+    padding: 4rem;
   }
 }
 .post-title{
@@ -157,9 +164,7 @@ export default {
 .post-date{
   font-style: italic;
 }
-.expe{
-  padding: 4rem;
-}
+
 h1{
   line-height: 1rem;
   margin-bottom: 0.25rem;
