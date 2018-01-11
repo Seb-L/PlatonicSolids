@@ -117,8 +117,9 @@ export default {
     return {
       skills: [
         'Javascript',
-        'AngularJS',
+        'AngularJS 1',
         'VueJS',
+        'Vuex',
         'HTML5/CSS3',
         'SASS',
         'Photoshop / Illustrator',
@@ -127,7 +128,8 @@ export default {
         'Gitlab CI',
         'Travis CI',
         'Firebase',
-        'Firebase Functions'
+        'Firebase Functions',
+        'DialogFlow'
       ],
       mediumPosts: []
     }
