@@ -85,7 +85,7 @@
 
         <Timeline-item>
           <Icon type="university" slot="dot"></Icon>
-          <h1>Dévellopeur multimédia</h1>
+          <h1>Développeur multimédia</h1>
           <h2>Formasoft</h2>
           <h3>2008 / 2009</h3>
           <p>Niveau III Domaine d’études Multimédia, Infographie, Webdesign</p>
