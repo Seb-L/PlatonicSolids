@@ -136,7 +136,9 @@ export default {
   },
   mounted () {
     this.axios
-      .get('https://api.rss2json.com/v1/api.json', {params: { rss_url: 'https://medium.com/feed/@Seb_L' }})
+      .get('https://api.rss2json.com/v1/api.json', {
+        params: { rss_url: 'https://medium.com/feed/@Seb_L/' }
+      })
       .then(({data}) => {
         this.mediumPosts = data.items.filter(post => post.categories.length)
       })
