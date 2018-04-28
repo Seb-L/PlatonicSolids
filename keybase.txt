@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sebl
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://seb-l.me
+  * I am sebl (https://keybase.io/sebl) on keybase.
+  * I have a public key ASDPCTfzIh-zkyHQcNaq4RhNN31fgovyiX8Z1fPrnuDWHAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cf0937f3221fb39321d070d6aae1184d377d5f828bf2897f19d5f3eb9ee0d61c0a",
+      "host": "keybase.io",
+      "kid": "0120cf0937f3221fb39321d070d6aae1184d377d5f828bf2897f19d5f3eb9ee0d61c0a",
+      "uid": "8af719ab4424a032ed2d1a26dfb96719",
+      "username": "sebl"
+    },
+    "merkle_root": {
+      "ctime": 1524936669,
+      "hash": "862c4ef12e59c0c5e56614e45feb6e78ea25821d6ffe3f93053b9e52f5109717af00f0dc63d0e7736f43f104b5fb2ed0887b0a0f4fba79c98b51d5c3252bc792",
+      "hash_meta": "2cdcb28cfd7f698e92d4f22a3960c5099a718b91e5fefcc392a8d8b3cb5a2a89",
+      "seqno": 2454194
+    },
+    "service": {
+      "entropy": "8Fj05cDTFps2ilFUqZ9iVOem",
+      "hostname": "seb-l.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1524936718,
+  "expire_in": 504576000,
+  "prev": "20fd76c2c2c8fddda74a7e653b0e17ce5b6c1d5e8da9c4bc9b6d97d0e988f804",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzwk38yIfs5Mh0HDWquEYTTd9X4KL8ol/GdXz657g1hwKp3BheWxvYWTESpcCCMQgIP12wsLI/d2nSn5lOw4XzltsHV6NqcS8m22X0OmI+ATEICzOFOUYwQoaKvnxIleGMuISM2C9MEDxe9QdHVMwFPRlAgHCo3NpZ8RArq8+K2ufqNjW46fJtVFoVCv5ye/bSXgLJwVWA297d/90M3+Cd/+t1F5L5ucLPBRTZM7yLmd0/pnlZbPxuHIVBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOHqBDeCpjc0fPH8V10cgSeZgxOUce9aCh482LOPfnsDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sebl
+
+==================================================================
