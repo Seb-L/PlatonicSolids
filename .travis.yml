@@ -2,7 +2,9 @@ language: node_js
 node_js: "7"
 cache: yarn
 before_script: yarn
-script: yarn run build
+script:
+  - yarn run build
+  - mv keybase.txt dist/keybase.txt
 deploy:
   provider: pages
   github_token: $GITHUB_TOKEN
