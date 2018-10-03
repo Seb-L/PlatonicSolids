@@ -36,8 +36,23 @@
       <Timeline>
         <Timeline-item>
           <h1>Lead Front-End Developer</h1>
+          <h2>John Paul</h2>
+          <h3>September 2018 / October 2018</h3>
+          <p>
+            Mise en place d'une architecture front:<br>
+            - Ecosystem: VueJS, Vuex, Vue-router<br>
+            - UI: Bootstrap-vue, custom sass helpers<br>
+            - Tests: Jest, Cypress, Axe-core<br>
+            - CI/CD: Gitlab CI<br>
+            - Documentation: Vuepress<br>
+            - VueJs Plugin: vue-atinternet-smarttag
+          </p>
+        </Timeline-item>
+
+        <Timeline-item>
+          <h1>Lead Front-End Developer</h1>
           <h2>Numberly / 1000mercis Group</h2>
-          <h3>March 2016 / Today</h3>
+          <h3>March 2016 / August 2018</h3>
           <p>
             - Validation technique<br>
             - Management d'équipe<br>
