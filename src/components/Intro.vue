@@ -6,8 +6,8 @@
       </div>
       <h1>Sébastien Lombard</h1>
       <p>
-        Lead Front-End Developer<br>
-        at Numberly / 1000mercis Group
+        Team Lead<br>
+        at Agorize
       </p>
       <br>
 
