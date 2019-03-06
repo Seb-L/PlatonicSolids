@@ -35,6 +35,18 @@
       <!-- EXPERIENCE -->
       <Timeline>
         <Timeline-item>
+          <h1>Team Lead</h1>
+          <h2>Agorize</h2>
+          <h3>January 2019 / Today</h3>
+        </Timeline-item>
+        
+        <Timeline-item>
+          <h1>Lead Front-End Developer</h1>
+          <h2>Agorize</h2>
+          <h3>October 2018 / January 2019</h3>
+        </Timeline-item>
+        
+        <Timeline-item>
           <h1>Lead Front-End Developer</h1>
           <h2>John Paul</h2>
           <h3>September 2018 / October 2018</h3>
