@@ -8,7 +8,7 @@
         5 years and half in Graphic Design, Flash and HTML Integration,<br>
         I dragged myself into Front-End Development in 2014.<br>
         <br>
-        Since march 2016, I manage a team of Front-End Developers at Numberly.
+        I managed a team of Front-End Developers at Numberly for 3 and half years, and now I'm a Team Lead at Agorize.
       </div>
       <br>
 
