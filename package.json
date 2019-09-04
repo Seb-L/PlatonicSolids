@@ -5,9 +5,9 @@
   "author": "Sebastien Lombard",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon functions/index.js --watch server",
+    "dev": "cross-env NODE_ENV=development nodemon .netlify/functions/index.js --watch server",
     "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production node functions/index.js",
+    "start": "cross-env NODE_ENV=production node .netlify/functions/index.js",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "test": "jest"
