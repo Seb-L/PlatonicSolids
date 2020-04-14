@@ -1,0 +1,48 @@
+.admin-btn{
+  @apply bg-gray-200 rounded outline-none;
+
+  &:focus {
+    @apply outline-none;
+  }
+}
+
+.triangle-top{
+  @apply relative;
+
+  &:before {
+    @apply block border-gray-200 absolute w-0 h-0;
+    content: '';
+    top: -16px;
+    border-width: 8px 6px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+}
+
+.triangle-top-left {
+  @extend .triangle-top;
+
+  &:before {
+    left: 11px;
+  }
+}
+
+.triangle-top-right{
+  @extend .triangle-top;
+
+  &:before {
+    right: 11px;
+  }
+}
+
+// Animations
+.admin-menu-enter-active,
+.admin-menu-leave-active {
+  @apply transition-opacity duration-200;
+}
+
+.admin-menu-enter,
+.admin-menu-leave-to {
+  opacity: 0;
+}

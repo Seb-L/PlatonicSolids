@@ -1,6 +1,6 @@
 # PlatonicSolids
 
-> PlatonicSolids website
+> Seb.L. Personal Website
 
 ## Build Setup
 

@@ -1,0 +1,141 @@
+.nuxt-content {
+  @apply max-w-2xl mx-auto text-gray-600;
+
+  #table-of-contents + ul{
+    @apply ml-2 text-sm;
+
+    p{
+      @apply mb-0;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6, p, ul, ol, table, .nuxt-content-highlight {
+    @apply mb-8;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    @apply relative text-gray-800;
+
+    .icon.icon-link{
+      @apply absolute block text-sm;
+      top: 50%;
+      left: -30px;
+      opacity: 0.25;
+      transform: translateY(-50%);
+
+      &:before{
+        content: "🔗";
+      }
+    }
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  hr {
+    @apply my-4;
+  }
+
+  a {
+    @apply text-gray-600 underline font-bold;
+  }
+
+  ul, ol {
+    @apply ml-4;
+
+    li {
+      @apply list-outside;
+    }
+
+    ul, ol {
+      @apply mb-0;
+    }
+  }
+
+  ul li {
+    @apply list-disc;
+  }
+
+  ol li {
+    @apply list-decimal;
+  }
+
+  blockquote {
+    @apply border-l-4 pl-4;
+  }
+
+  .nuxt-content-highlight{
+    @apply text-xs;
+
+    pre{
+      @apply pl-4;
+    }
+  }
+
+  p>code {
+    @apply bg-gray-200 py-1 px-2 rounded;
+  }
+
+  strong{
+    @apply text-gray-800;
+  }
+
+  .remark-container.success,
+  .remark-container.warning,
+  .remark-container.danger {
+    @apply rounded p-4 pb-1 mb-8;
+
+    .remark-container-title {
+      @apply font-medium mb-0 leading-none;
+    }
+
+    p {
+      @apply mb-2;
+    }
+  }
+
+  .remark-container.success {
+    @apply bg-green-200;
+
+    .remark-container-title {
+      @apply text-green-600;
+    }
+  }
+
+  .remark-container.warning {
+    @apply bg-yellow-200;
+
+    .remark-container-title {
+      @apply text-yellow-600;
+    }
+  }
+
+  .remark-container.danger {
+    @apply bg-red-200;
+
+    .remark-container-title {
+      @apply text-red-600;
+    }
+  }
+
+  .footnotes{
+    @apply text-xs;
+
+    p{
+      @apply mb-1;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2019",
     "module": "esnext",
     "moduleResolution": "node",
     "lib": [
@@ -15,19 +15,19 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
+      "~/*": ["./src/*"],
+      "@/*": ["./src/*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
     },
     "types": [
       "@types/node",
-      "@nuxt/types"
+      "@types/webpack-env",
+      "@nuxt/types",
+      "@nuxt/content"
     ]
   },
   "exclude": [
-    "node_modules"
+    "node_modules/**"
   ]
 }

@@ -1,0 +1,16 @@
+<template>
+  <div class="main-container">
+    <Intro />
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'nuxt-composition-api'
+
+export default defineComponent({
+  setup () {
+    return {
+    }
+  },
+})
+</script>
